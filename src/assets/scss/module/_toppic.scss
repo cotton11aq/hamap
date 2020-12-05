@@ -1,0 +1,49 @@
+.toppic {
+  width: 100%;
+  padding-left: 2rem;
+
+  &-top {
+    @include toppic_img("../../img/top/sp/sp_top_1.png");
+  }
+
+  &-shotengai {
+    @include toppic_img("../../img/top/sp/sp_erea_top_shotengai-2.png");
+  }
+
+  &-yawatahamaeki {
+    @include toppic_img("../../img/top/sp/sp_erea_top_yawatahamaeki-2.png");
+  }
+
+  &-minatto {
+    @include toppic_img("../../img/top/sp/sp_erea_top_minatto-2.png");
+  }
+}
+
+@include mq("sp") {
+  .toppic {
+    height: 60%;
+    padding-left: 12rem;
+
+    &-top {
+      @include pc_toppic_img(100%, "../../img/top/pc/pc_top_1.png");
+    }
+
+    &-shotengai {
+      @include pc_toppic_img(
+        40rem,
+        "../../img/top/pc/pc_erea_top_shotengai.png"
+      );
+    }
+
+    &-yawatahamaeki {
+      @include pc_toppic_img(
+        40rem,
+        "../../img/top/pc/pc_erea_top_yawatahamaeki.png"
+      );
+    }
+
+    &-minatto {
+      @include pc_toppic_img(40rem, "../../img/top/pc/pc_erea_top_minatto.png");
+    }
+  }
+}

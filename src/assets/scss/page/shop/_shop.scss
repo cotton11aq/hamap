@@ -1,0 +1,692 @@
+.shop {
+  padding: 4rem 2rem 6rem;
+  background: #f7f7f7;
+  font-weight: 600;
+
+  &-head {
+    text-align: center;
+    padding: 0 4rem 4rem;
+
+    h3 {
+      font-size: 2.4rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #000;
+      display: inline;
+    }
+
+    p {
+      padding-top: 1rem;
+    }
+  }
+
+  &-aspect {
+    position: relative;
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  &-aspect::before {
+    content: "";
+    display: block;
+    padding-top: 65%;
+  }
+
+  &-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+  }
+
+  &-iguru {
+    @include shoppic("/assets/img/shop/iguru.jpg");
+  }
+
+  &-maruyama {
+    @include shoppic("/assets/img/shop/maruyama.jpg");
+  }
+
+  &-aikatei {
+    @include shoppic("/assets/img/shop/aikatei.jpg");
+  }
+
+  &-kinomi {
+    @include shoppic("/assets/img/shop/kinomi.jpg");
+  }
+
+  &-kuore {
+    @include shoppic("/assets/img/shop/kuore.jpg");
+  }
+
+  &-sanwa {
+    @include shoppic("/assets/img/shop/sanwa.jpg");
+  }
+
+  &-dyuudyuu {
+    @include shoppic("/assets/img/shop/dyuudyuu.jpg");
+  }
+
+  &-ito {
+    @include shoppic("/assets/img/shop/ito.jpg");
+  }
+
+  &-praza {
+    @include shoppic("/assets/img/shop/praza.jpg");
+  }
+
+  &-atago {
+    @include shoppic("/assets/img/shop/atago.jpg");
+  }
+
+  &-fuji {
+    @include shoppic("/assets/img/shop/fuji.jpg");
+  }
+
+  &-marin {
+    @include shoppic("/assets/img/shop/marin.jpg");
+  }
+
+  &-mitsuba {
+    @include shoppic("/assets/img/shop/mitsuba.jpg");
+  }
+
+  &-minato {
+    @include shoppic("/assets/img/shop/minato.jpg");
+  }
+
+  &-ajiraku {
+    @include shoppic("/assets/img/shop/ajiraku.jpg");
+  }
+
+  &-yakijozu {
+    @include shoppic("/assets/img/shop/yakijozu.jpg");
+  }
+
+  &-rondon {
+    @include shoppic("/assets/img/shop/rondon.jpg");
+  }
+
+  &-seike {
+    @include shoppic("/assets/img/shop/seike.jpg");
+  }
+
+  &-ueda {
+    @include shoppic("/assets/img/shop/ueda.jpg");
+  }
+
+  &-sushikou {
+    @include shoppic("/assets/img/shop/sushikou.jpg");
+  }
+
+  &-umisachimaru {
+    @include shoppic("/assets/img/shop/umisachimaru.jpg");
+  }
+
+  &-kitahama {
+    @include shoppic("/assets/img/shop/kitahama.jpg");
+  }
+
+  &-shigaru {
+    @include shoppic("/assets/img/shop/shigaru.jpg");
+  }
+
+  &-doya {
+    @include shoppic("/assets/img/shop/doya.jpg");
+  }
+
+  &-atago {
+    @include shoppic("/assets/img/shop/atago.jpg");
+  }
+
+  &-oshimaya {
+    @include shoppic("/assets/img/shop/oshimaya.jpg");
+  }
+
+  &-kokeke {
+    @include shoppic("/assets/img/shop/kokeke.jpg");
+  }
+
+  &-takamatsuya {
+    @include shoppic("/assets/img/shop/takamatsuya.jpg");
+  }
+
+  &-sushiishin {
+    @include shoppic("/assets/img/shop/sushiishin.jpg");
+  }
+
+  &-tarugen {
+    @include shoppic("/assets/img/shop/tarugen.jpg");
+  }
+
+  &-kasuga {
+    @include shoppic("/assets/img/shop/kasuga.jpg");
+  }
+
+  &-kairi {
+    @include shoppic("/assets/img/shop/kairi.jpg");
+  }
+
+  &-atagoginza {
+    @include shoppic("/assets/img/shop/atagoginza.jpg");
+  }
+
+  &-yoshi {
+    @include shoppic("/assets/img/shop/yoshi.jpg");
+  }
+
+  &-dosanko {
+    @include shoppic("/assets/img/shop/dosanko.jpg");
+  }
+
+  &-inoue {
+    @include shoppic("/assets/img/shop/inoue.jpg");
+  }
+
+  &-ikedaya {
+    @include shoppic("/assets/img/shop/ikedaya.jpg");
+  }
+
+  &-kinomi {
+    @include shoppic("/assets/img/shop/kinomi.jpg");
+  }
+
+  &-ino {
+    @include shoppic("/assets/img/shop/ino.jpg");
+  }
+
+  &-ayacho {
+    @include shoppic("/assets/img/shop/ayacho.jpg");
+  }
+
+  &-kaisho {
+    @include shoppic("/assets/img/shop/kaisho.jpg");
+  }
+
+  &-uribo {
+    @include shoppic("/assets/img/shop/uribo.jpg");
+  }
+
+  &-kimi {
+    @include shoppic("/assets/img/shop/kimi.jpg");
+  }
+
+  &-maru {
+    @include shoppic("/assets/img/shop/maru.jpg");
+  }
+
+  &-yumesuke {
+    @include shoppic("/assets/img/shop/yumesuke.jpg");
+  }
+
+  &-tsukiten {
+    @include shoppic("/assets/img/shop/tsukiten.jpg");
+  }
+
+  &-kuimonya {
+    @include shoppic("/assets/img/shop/kuimonya.jpg");
+  }
+
+  &-kuore {
+    @include shoppic("/assets/img/shop/kuore.jpg");
+  }
+
+  &-meoto {
+    @include shoppic("/assets/img/shop/meoto.jpg");
+  }
+
+  &-kofu {
+    @include shoppic("/assets/img/shop/kofu.jpg");
+  }
+
+  &-saisu {
+    @include shoppic("/assets/img/shop/saisu.jpg");
+  }
+
+  &-ichidai {
+    @include shoppic("/assets/img/shop/ichidai.jpg");
+  }
+
+  &-syokudukuri {
+    @include shoppic("/assets/img/shop/syokudukuri.jpg");
+  }
+
+  &-enya {
+    @include shoppic("/assets/img/shop/enya.jpg");
+  }
+
+  &-ryokichi {
+    @include shoppic("/assets/img/shop/ryokichi.jpg");
+  }
+
+  &-praza {
+    @include shoppic("/assets/img/shop/praza.jpg");
+  }
+
+  &-bia {
+    @include shoppic("/assets/img/shop/bia.jpg");
+  }
+
+  &-ku {
+    @include shoppic("/assets/img/shop/ku.jpg");
+  }
+
+  &-porupo {
+    @include shoppic("/assets/img/shop/porupo.jpg");
+  }
+
+  &-minato {
+    @include shoppic("/assets/img/shop/minato.jpg");
+  }
+
+  &-yururi {
+    @include shoppic("/assets/img/shop/yururi.jpg");
+  }
+
+  &-yochatei {
+    @include shoppic("/assets/img/shop/yochatei.jpg");
+  }
+
+  &-robata {
+    @include shoppic("/assets/img/shop/robata.jpg");
+  }
+
+  &-nagayama {
+    @include shoppic("/assets/img/shop/nagayama.jpg");
+  }
+
+  &-toraji {
+    @include shoppic("/assets/img/shop/toraji.jpg");
+  }
+
+  &-heiwa {
+    @include shoppic("/assets/img/shop/heiwa.jpg");
+  }
+
+  &-gongen {
+    @include shoppic("/assets/img/shop/gongen.jpg");
+  }
+
+  &-buruman {
+    @include shoppic("/assets/img/shop/buruman.jpg");
+  }
+
+  &-sutera {
+    @include shoppic("/assets/img/shop/sutera.jpg");
+  }
+
+  &-chouchou {
+    @include shoppic("/assets/img/shop/chouchou.jpg");
+  }
+
+  &-winpi {
+    @include shoppic("/assets/img/shop/winpi.jpg");
+  }
+
+  &-yanagi {
+    @include shoppic("/assets/img/shop/yanagi.jpg");
+  }
+
+  &-monburan {
+    @include shoppic("/assets/img/shop/monburan.jpg");
+  }
+
+  &-deri {
+    @include shoppic("/assets/img/shop/deri.jpg");
+  }
+
+  &-reskitahama {
+    @include shoppic("/assets/img/shop/reskitahama.jpg");
+  }
+
+  &-bake {
+    @include shoppic("/assets/img/shop/bake.jpg");
+  }
+
+  &-amarufi {
+    @include shoppic("/assets/img/shop/amarufi.jpg");
+  }
+
+  &-mezon {
+    @include shoppic("/assets/img/shop/mezon.jpg");
+  }
+
+  &-gochisou {
+    @include shoppic("/assets/img/shop/gochisou.jpg");
+  }
+
+  &-roru {
+    @include shoppic("/assets/img/shop/roru.jpg");
+  }
+
+  &-goto {
+    @include shoppic("/assets/img/shop/goto.jpg");
+  }
+
+  &-puchi {
+    @include shoppic("/assets/img/shop/puchi.jpg");
+  }
+
+  &-miyachan {
+    @include shoppic("/assets/img/shop/miyachan.jpg");
+  }
+
+  &-chanpon {
+    //background-imgは設定の先に書く！
+    background: url("/assets/img/shop/circle/circle_chanpon.png");
+  }
+
+  &-kaisen {
+    //background-imgは設定の先に書く！
+    background: url("/assets/img/shop/circle/circle_kaisen.png");
+  }
+
+  &-menrui {
+    //background-imgは設定の先に書く！
+    background: url("/assets/img/shop/circle/circle_menrui.png");
+  }
+
+  &-izakaya {
+    //background-imgは設定の先に書く！
+    background: url("/assets/img/shop/circle/circle_izakaya.png");
+  }
+
+  &-cafe {
+    //background-imgは設定の先に書く！
+    background: url("/assets/img/shop/circle/circle_cafe.png");
+  }
+
+  &-konamono {
+    //background-imgは設定の先に書く！
+    background: url("/assets/img/shop/circle/circle_konamono.png");
+  }
+
+  &-icon {
+    position: absolute;
+    height: 4rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -1.5rem;
+    left: -1.5rem;
+  }
+
+  &-sub {
+    margin-top: 4rem;
+
+    p {
+      font-size: 2.4rem;
+      line-height: 1.6;
+
+      span {
+        font-size: 1.2rem;
+        font-weight: normal;
+        padding: 0.5rem 1.2rem;
+        background: #e8e8e8;
+        border-radius: 2rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &-text {
+    margin-top: 4rem;
+  }
+
+  &-info {
+    margin: 4rem 2rem;
+    padding: 1rem 1rem 2rem;
+    background: #fff;
+  }
+
+  &-map {
+    position: relative;
+    width: 100%;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-map:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 高さと幅の比を16:9に固定。9/16*100=56.25 */
+  }
+
+  &-title {
+    padding-top: 2rem;
+
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  &-address {
+    p {
+      font-size: 1.3rem;
+      font-weight: normal;
+      padding-top: 1rem;
+    }
+  }
+
+  &-lists {
+    background: #fff;
+    margin-top: 2rem;
+
+    p,
+    span {
+      font-size: 1.4rem;
+    }
+  }
+
+  &-list {
+    display: flex;
+    padding: 2rem 1rem;
+    border-bottom: 0.5px solid #d0d0d0;
+  }
+
+  &-list:last-child {
+    border-bottom: none;
+  }
+
+  &-list-icon {
+    width: 10%;
+
+    img {
+      width: 1.5rem;
+    }
+
+    p {
+      display: none;
+    }
+  }
+
+  &-list-text {
+    width: 90%;
+
+    img {
+      width: 1.6rem;
+    }
+
+    span,
+    a {
+      font-weight: normal;
+      display: block;
+      padding-left: 0.5rem;
+      font-size: 1.4rem;
+    }
+
+    a:link {
+      color: #0000ee;
+      text-decoration: underline;
+    }
+
+    a:visited {
+      color: #551a8b;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: #ff0000;
+      text-decoration: underline;
+    }
+  }
+
+  &-list-num {
+    width: auto;
+  }
+
+  &-list-times {
+    display: flex;
+  }
+
+  &-list-time {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+  }
+
+  &-facility {
+    margin-top: 4rem;
+  }
+
+  &-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .shop-list-text {
+      background: #fff;
+      width: 48%;
+      padding: 2rem;
+      margin-top: 1rem;
+    }
+  }
+
+  &-none {
+    display: none;
+  }
+}
+
+@include mq("sp") {
+  .shop {
+    padding: 4rem 12rem 6rem;
+
+    &-container {
+      max-width: 92rem;
+      margin: 0 auto;
+    }
+
+    &-sub {
+      p {
+        font-size: 3.2rem;
+      }
+    }
+
+    &-icon {
+      height: 8rem;
+      top: -3rem;
+      left: -3rem;
+    }
+
+    &-head-flex {
+      display: flex;
+    }
+
+    &-head-flex01 {
+      width: 65%;
+    }
+
+    &-head-flex02 {
+      width: 35%;
+    }
+
+    &-map {
+      height: 20rem;
+    }
+
+    &-text {
+      font-weight: normal;
+    }
+
+    &-list-icon {
+      padding-left: 3rem;
+
+      p {
+        display: inline;
+        padding-left: 1rem;
+      }
+    }
+
+    &-list-sp {
+      display: none;
+    }
+
+    &-icon {
+      img {
+        width: 8%;
+        top: -3rem;
+        left: -3rem;
+      }
+    }
+
+    &-list {
+      padding: 0 1rem;
+      border-bottom: 4px solid #f7f7f7;
+    }
+
+    &-list-text {
+      width: 100%;
+      display: flex;
+
+      p {
+        padding: 2rem 3rem;
+      }
+    }
+
+    &-content &-list-text {
+      display: block;
+      padding: 0;
+      height: 18rem;
+
+      p {
+        padding-bottom: 0;
+      }
+    }
+
+    &-list-flex01 {
+      display: flex;
+      align-items: center;
+      width: 25%;
+      border-right: 4px solid #f7f7f7;
+    }
+
+    &-list-flex02 {
+      width: 75%;
+    }
+
+    &-list-num {
+      width: 100%;
+    }
+
+    &-list-times {
+      padding: 2rem 3rem;
+    }
+
+    &-content {
+      .shop-list-text {
+        width: 24%;
+      }
+    }
+  }
+}

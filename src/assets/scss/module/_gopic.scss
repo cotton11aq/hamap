@@ -1,0 +1,76 @@
+.gopic {
+  &-icon {
+    width: 100%;
+    padding-top: 15%;
+    text-align: center;
+
+    img {
+      width: 8%;
+    }
+  }
+
+  &-link {
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    &::after {
+      background-color: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      content: " ";
+    }
+  }
+
+  &-box {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+    z-index: 5;
+  }
+
+  // アスペクト比
+  &-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  &-wrapper:before {
+    content: "";
+    display: block;
+    padding-top: 50%;
+  }
+
+  &-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@include mq("sp") {
+  .gopic {
+    &-wrapper {
+      width: 31%;
+    }
+
+    &-wrapper:before {
+      content: "";
+      display: block;
+      padding-top: 71%;
+    }
+
+    &-icon {
+      padding-top: 24%;
+    }
+  }
+}

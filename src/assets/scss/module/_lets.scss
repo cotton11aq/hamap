@@ -1,0 +1,37 @@
+.lets {
+  &-gray {
+    background: #f7f7f7;
+  }
+
+  &-container {
+    padding: 6rem 2rem 0;
+    text-align: center;
+  }
+
+  &-texts {
+    padding-bottom: 4rem;
+  }
+
+  &-title {
+    padding-bottom: 2rem;
+    position: relative;
+
+    h3 {
+      display: inline;
+      font-size: 3.2rem;
+      font-weight: 900;
+      font-family: "Roboto";
+      letter-spacing: normal;
+      border-bottom: 2px solid #333333;
+      padding-bottom: 1rem;
+    }
+  }
+
+  &-sub {
+    padding-top: 2rem;
+
+    p {
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.sechead {
+  padding: 6rem 2rem 4rem;
+
+  &-title {
+    h3 {
+      font-size: 3.2rem;
+      padding-bottom: 1.5rem;
+      font-weight: 900;
+      position: relative;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 0.1rem;
+    }
+
+    h3:after {
+      position: absolute;
+      content: "";
+      display: block;
+      line-height: 0;
+      overflow: hidden;
+      left: 0;
+      bottom: -2px;
+      width: 15%;
+      border-bottom: 2px solid #000;
+    }
+  }
+
+  &-titlesub {
+    padding: 2rem 0;
+    font-weight: 600;
+  }
+
+  &-img {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    a {
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
+  }
+
+  &-map {
+    position: relative;
+    width: 100%;
+
+    img {
+      width: 50%;
+      position: absolute;
+      top: -14rem;
+      right: -1rem;
+      z-index: -10;
+    }
+  }
+
+  &-wrapper {
+    padding-bottom: 4rem;
+  }
+
+  &-arrow {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    background: #fff;
+    height: 12rem;
+  }
+
+  &-none {
+    display: none;
+  }
+}
+
+@include mq("sp") {
+  .sechead {
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-bottom: 0;
+
+    &-white {
+      max-width: 110rem;
+      margin: 0 auto;
+      display: flex;
+      padding-top: 6rem;
+    }
+
+    &-wrapper {
+      order: 2;
+      padding-left: 4rem;
+      width: 50%;
+    }
+
+    &-img {
+      order: 1;
+      width: 50%;
+    }
+
+    &-title {
+      h3 {
+        font-size: 6rem;
+        padding-top: 2.4rem;
+        letter-spacing: 0.2rem;
+        line-height: 1;
+      }
+    }
+
+    &-title h3::after {
+      bottom: -1.2rem;
+    }
+
+    &-titlesub {
+      padding-top: 3rem;
+      padding-bottom: 8rem;
+
+      p {
+        font-size: 2.4rem;
+        line-height: 1.5;
+      }
+    }
+
+    &-map {
+      img {
+        top: -22rem;
+      }
+    }
+
+    &-bottom {
+      height: 10rem;
+    }
+  }
+}

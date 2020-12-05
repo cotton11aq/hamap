@@ -1,0 +1,13 @@
+@mixin mainpic-sp($url) {
+  background: url($url);
+}
+
+@mixin mainpic-pc($url) {
+  display: block;
+  height: 100%;
+  margin-left: 12rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: url($url);
+}

@@ -1,0 +1,106 @@
+.topcontents {
+  padding: 8rem 2rem 0;
+
+  &-title {
+    text-align: center;
+
+    h2 {
+      font-size: 3.6rem;
+      font-weight: 700;
+      padding-bottom: 3rem;
+    }
+  }
+
+  &-title02 {
+    padding: 6rem 0 2rem;
+
+    h3 {
+      font: 2.8rem;
+      font-weight: 700;
+    }
+  }
+
+  &-sub {
+    padding-top: 4rem;
+
+    p {
+      font-family: "Roboto", sans-serif;
+    }
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+
+  &-num {
+    font-weight: 700;
+    font-size: 2.8rem;
+
+    span {
+      font-size: 1.6rem;
+      padding-left: 1rem;
+    }
+  }
+
+  &-map {
+    position: relative;
+    height: 35rem;
+    z-index: -10;
+
+    img {
+      position: absolute;
+      top: -14rem;
+      left: 3rem;
+    }
+  }
+
+  &-map-pc {
+    display: none;
+  }
+}
+
+@include mq("sp") {
+  .topcontents {
+    position: relative;
+    max-width: 110rem;
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+
+    &-text01 {
+      text-align: center;
+    }
+
+    &-text02 {
+      max-width: 45rem;
+    }
+
+    &-map-sp {
+      display: none;
+    }
+
+    &-map-pc {
+      display: block;
+    }
+
+    &-map {
+      height: 0;
+
+      img {
+        width: 100%;
+        max-width: 70rem;
+        left: auto;
+        right: 0;
+        top: -42rem;
+      }
+    }
+
+    &-title02 {
+      h3 {
+        font-size: 3.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.eatgenre {
+  &-pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2rem 6rem;
+  }
+
+  &-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &-banner {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+    p {
+      padding-top: 5%;
+      color: #fff;
+      font-weight: 600;
+
+      span {
+        display: block;
+        line-height: 20%;
+        font-size: 0.8rem;
+        color: #fff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+      }
+    }
+  }
+
+  // ホバー時の動き
+  &-bg-zoom {
+    position: relative; 
+    overflow: hidden; 
+    background: #000;
+  }
+
+  &-bg-zoom01:after {
+    @include picsrc("../../img/eat/pic/sp_search_chanpon.png");
+  }
+  &-bg-zoom02:after {
+    @include picsrc("../../img/eat/pic/sp_search_kaisen.png");
+  }
+  &-bg-zoom03:after {
+    @include picsrc("../../img/eat/pic/sp_search_izakaya.png");
+  }
+  &-bg-zoom04:after {
+    @include picsrc("../../img/eat/pic/sp_search_yakiniku.png");
+  }
+  &-bg-zoom05:after {
+    @include picsrc("../../img/eat/pic/sp_search_menrui.png");
+  }
+  &-bg-zoom06:after {
+    @include picsrc("../../img/eat/pic/sp_search_konamono.png");
+  }
+  &-bg-zoom07:after {
+    @include picsrc("../../img/eat/pic/sp_search_cafe.png");
+  }
+
+  &-bg-zoom:hover:after {
+    opacity: 0.5; 
+    transform: scale(1.05); 
+  }
+}
+
+@include mq("sp") {
+  .eatgenre {
+    padding-left: 12rem;
+    padding-right: 12rem;
+
+    &-pic {
+      display: flex;
+      max-width: 124rem;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    &-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    &-bottom {
+      height: 10rem;
+    }
+  }
+}

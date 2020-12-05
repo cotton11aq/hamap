@@ -1,0 +1,103 @@
+.common {
+  padding: 22rem 0 24rem;
+
+  &-wrapper {
+    padding: 0 8rem;
+    width: 100%;
+  }
+
+  &-width {
+    margin: 0 auto;
+    max-width: 96rem;
+    width: 100%;
+  }
+
+  &-title {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: neue-haas-grotesk-display, sans-serif;
+  }
+
+  &-message {
+    margin-top: 6rem;
+    font-size: 2.4rem;
+    font-family: "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ ProN W3",
+      Hiragino Kaku Gothic ProN, "メイリオ", sans-serif;
+    letter-spacing: 0.6rem;
+    line-height: 2.5;
+    font-weight: 700;
+  }
+
+  &-more {
+    margin-top: 6rem;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #333;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    a {
+      display: block;
+      font-size: 1.4rem;
+      font-weight: 700;
+      font-family: neue-haas-grotesk-display, sans-serif;
+      padding: 0.9em 4em;
+    }
+  }
+
+  &-more::after {
+    position: absolute;
+    top: 50%;
+    right: 0.2em;
+    content: "";
+    margin-top: -5px;
+    border: 7px solid transparent;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: #333;
+    transition: all 0.3s;
+  }
+
+  &-more:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  &-more:hover::after {
+    border-left-color: #fff;
+  }
+
+  &-gray {
+    background-color: #f2f5f9;
+  }
+
+  &-moregray {
+    background: none;
+  }
+
+  &-display {
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  &-img {
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-img01 {
+    padding-right: 2.5rem;
+  }
+
+  &-img02 {
+    padding-left: 2.5rem;
+  }
+}

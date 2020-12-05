@@ -1,0 +1,89 @@
+.tophead {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+
+  &-wrapper {
+    width: 100%;
+    padding-left: 2rem;
+    z-index: 1;
+  }
+
+  &-map {
+    position: relative;
+    height: 45rem;
+    margin-bottom: 2rem;
+
+    iframe {
+      height: 100%;
+      padding: 0 2rem;
+      width: 100%;
+      position: absolute;
+      top: -54px;
+    }
+  }
+
+  &-text {
+    display: flex;
+    align-items: center;
+    padding: 0 0 2rem;
+  }
+
+  &-icon {
+    width: 10%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-title {
+    padding-left: 1rem;
+
+    p {
+      font-weight: 600;
+    }
+  }
+}
+
+@include mq("sp") {
+  .tophead {
+    padding: 2rem 4rem;
+
+    &-map {
+      width: 55%;
+      height: calc(100vh - 100px);
+      display: flex;
+      order: 2;
+      position: -webkit-sticky; /* Safari用 */
+      position: sticky; /* 要素をスクロールに応じて固定 */
+      top: 10rem; /* 縦スクロールに追従 */
+
+      iframe {
+        padding: 0;
+        height: calc(100% + 46px);
+      }
+    }
+
+    &-text {
+      padding: 0;
+    }
+
+    &-wrapper {
+      padding-left: 0;
+    }
+
+    &-icon {
+      width: 4rem;
+    }
+
+    &-map {
+      margin-bottom: 0;
+    }
+  }
+
+  #none {
+    display: none;
+  }
+}

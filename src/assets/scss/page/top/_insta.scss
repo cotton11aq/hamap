@@ -1,0 +1,128 @@
+.insta {
+  background-color: #f7f7f7;
+  padding-bottom: 6rem;
+
+  &-pics {
+    padding: 2rem 7rem 4rem;
+  }
+
+  &-container {
+    margin-bottom: 2rem;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    width: 100%;
+  }
+
+  &-container03 {
+    display: none;
+  }
+
+  &-container04 {
+    display: none;
+  }
+
+  &-container01::after {
+    background: url("../../../img/insta/insta01.jpg") no-repeat center center; 
+  }
+
+  &-container02::after {
+    background: url("../../../img/insta/insta02.jpg") no-repeat center center; 
+  }
+
+  &-container03::after {
+    background: url("../../../img/insta/insta03.jpg") no-repeat center center; 
+  }
+
+  &-container04::after {
+    background: url("../../../img/insta/insta04.jpg") no-repeat center center; 
+  }
+
+  &-container::after {
+    position: absolute;
+    content: ""; 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    transition: all 0.8s ease; 
+    background-size: cover;
+  }
+
+  &-container:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+
+  &-container:hover::after {
+    opacity: 0.5; 
+    transform: scale(1.05); 
+  }
+
+  &-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &-btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 30rem;
+  }
+
+  &-text:hover {
+    opacity: 0.5;
+  }
+
+  &-text {
+    display: block;
+    position: relative;
+    padding: 1rem 0;
+    border: 1px solid #000;
+    transition: 0.2s;
+
+    p {
+      font-family: "Roboto";
+    }
+
+    img {
+      position: absolute;
+      top: 2rem;
+      right: 3rem;
+
+      width: 4rem;
+    }
+  }
+}
+
+@include mq("sp") {
+  .insta {
+    padding-bottom: 0;
+
+    &-pics {
+      padding: 0 12rem;
+      display: flex;
+    }
+
+    &-btn {
+      height: 10rem;
+      padding-top: 1.5rem;
+    }
+
+    &-container03 {
+      display: block;
+    }
+
+    &-container04 {
+      display: block;
+    }
+  }
+}

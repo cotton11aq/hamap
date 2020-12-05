@@ -1,0 +1,17 @@
+export {default as Header} from './Header/Header';
+export {default as Genre} from './Top/Genre';
+export {default as IconCard} from './TopGenre/IconCard';
+export {default as Contents} from './Top/Contents';
+export {default as SecHeadText} from './SecHeadText/SecHeadText';
+export {default as GenreHeadText} from './GenreHead/GenreHeadText';
+export {default as EatGenre} from './EatGenre/EatGenre';
+export {default as EatPic} from './EatGenre/EatPic';
+export {default as GoGenre} from './GoGenre/GoGenre';
+export {default as GoPic} from './GoGenre/GoPic';
+export {default as Footer} from './Footer/Footer';
+export {default as Shop} from './Shop/Shop';
+export {default as Card} from './Cards/Card';
+export {default as GenreHeadTitle} from './GenreHead/GenreHeadTitle';
+export {default as SideNav} from './SideNav/SideNav';
+export {default as Insta} from './Top/Insta';
+export {default as SecHeadArrow} from './SecHeadArrow/SecHeadArrow';

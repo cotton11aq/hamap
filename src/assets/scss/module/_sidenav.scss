@@ -1,0 +1,118 @@
+.sidenav {
+  display: none;
+}
+
+@include mq("sp") {
+  .sidenav {
+    display: block;
+    text-align: center;
+
+    &-left01 {
+      position: fixed;
+      top: calc(35% - 100px);
+      left: 0;
+      width: 12rem;
+      transition-duration: 1.6s;
+      transition-timing-function: ease-in-out;
+      z-index: 5;
+
+      h4 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+      }
+
+      ul {
+        margin-top: 30px;
+
+        li {
+          margin-top: 15px;
+
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+
+          a {
+            display: inline;
+          }
+
+          i {
+            height: auto;
+            height: 2rem;
+          }
+        }
+      }
+
+      ul:before {
+        content: "";
+        display: inline-block;
+        width: 2px;
+        height: 60px;
+        background: #070707;
+        vertical-align: middle;
+      }
+    }
+
+    &-right01 {
+      position: fixed;
+      top: calc(50% - 100px);
+      right: 0;
+      width: 12rem;
+      transition-duration: 1.6s;
+      transition-timing-function: ease-in-out;
+      z-index: 5;
+
+      h4 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+      }
+
+      ul {
+        margin-top: 4rem;
+
+        li {
+          margin-top: 5rem;
+
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+
+          a {
+            display: block;
+          }
+
+          i {
+            height: auto;
+            height: 2rem;
+          }
+        }
+      }
+
+      ul:before {
+        content: "";
+        display: inline-block;
+        width: 2px;
+        height: 60px;
+        background: #070707;
+        vertical-align: middle;
+      }
+    }
+
+    &-trans {
+      cursor: pointer;
+    }
+
+    &-left02 {
+      top: calc(70% - 125px);
+    }
+  }
+}

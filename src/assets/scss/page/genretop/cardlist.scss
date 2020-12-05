@@ -1,0 +1,86 @@
+.cardlist {
+  background: #f7f7f7;
+  font-weight: 600;
+
+  &-wrapper {
+    padding: 2rem 2rem 2rem;
+    display: inline-block;
+    width: 100%;
+  }
+
+  &-card {
+    width: 100%;
+  }
+
+  &-pic {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-text {
+    background: #fff;
+    padding: 4rem 2rem 1rem;
+
+    h4 {
+      font-size: 2.4rem;
+    }
+
+    p {
+      padding-top: 2rem;
+    }
+  }
+
+  &-arrow {
+    width: 100%;
+    text-align: right;
+
+    img {
+      width: 20%;
+    }
+  }
+}
+
+@include mq("sp") {
+  .cardlist {
+    display: flex;
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-content: flex-start;
+
+    &-wrapper {
+      padding: 0;
+    }
+
+    &-flex {
+      width: 48%;
+      padding-bottom: 4rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+    }
+
+    &-text {
+      padding-top: 2rem;
+
+      p {
+        font-size: 1.4rem;
+        font-weight: normal;
+        height: 8rem;
+      }
+
+      h4 {
+        font-size: 1.8rem;
+        height: 3rem;
+      }
+    }
+
+    &-arrow {
+      line-height: 0.5;
+    }
+  }
+}

@@ -1,0 +1,188 @@
+.footer {
+  background: #f2a640;
+  padding: 7rem 4rem 2rem;
+  font-weight: 600;
+
+  &-logo {
+    width: 10rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-sub {
+    padding: 2rem 0;
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+  }
+
+  &-search {
+    padding: 2rem 0;
+    border-top: 1px solid #dda355;
+
+    p {
+      padding-bottom: 2rem;
+    }
+  }
+
+  &-genre {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        width: 25%;
+        text-align: center;
+
+        a {
+          font-size: 1.2rem;
+          padding-left: 1rem;
+          border-left: 3px solid #333333;
+        }
+      }
+
+      li:nth-child(1),
+      li:nth-child(5) {
+        text-align: left;
+      }
+    }
+  }
+
+  &-erea {
+    ul {
+      li {
+        width: auto;
+        padding-right: 2rem;
+      }
+    }
+  }
+
+  &-contact {
+    padding: 2rem 0 4rem;
+    border-top: 1px solid #dda355;
+
+    p {
+      padding-bottom: 2rem;
+    }
+  }
+
+  &-sns {
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem;
+
+      i {
+        padding-left: 1rem;
+      }
+    }
+  }
+
+  &-copy {
+    text-align: center;
+    padding-top: 4rem;
+
+    p {
+      font-size: 1rem;
+      font-family: "Roboto";
+      font-weight: normal;
+      font-style: italic;
+    }
+  }
+}
+
+@include mq("sp") {
+  .footer {
+    padding-left: 12rem;
+    padding-right: 12rem;
+
+    &-wrapper {
+      max-width: 112rem;
+      margin: 0 auto;
+    }
+
+    &-head {
+      display: flex;
+    }
+
+    &-logo {
+      display: flex;
+      align-items: center;
+      a {
+        display: inline-block;
+      }
+    }
+
+    &-sub {
+      padding-left: 2rem;
+
+      p {
+        font-size: 1.4rem;
+      }
+    }
+
+    &-search {
+      display: flex;
+      align-items: center;
+      padding: 4rem 0;
+
+      p {
+        width: 15%;
+        margin-right: 2rem;
+        padding-bottom: 0;
+      }
+    }
+
+    &-genre {
+      width: 85%;
+
+      ul li {
+        text-align: left;
+        width: auto;
+
+        a {
+          margin-right: 5rem;
+        }
+      }
+    }
+
+    &-contact {
+      display: flex;
+      align-items: center;
+      border: none;
+      padding: 0;
+
+      p {
+        padding-right: 4rem;
+        padding-bottom: 0;
+      }
+    }
+
+    &-flex {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #dda355;
+      padding: 4rem 0;
+    }
+
+    &-sns {
+      padding: 0;
+
+      a {
+        padding-left: 4rem;
+      }
+    }
+
+    &-copy {
+      padding-top: 0;
+    }
+  }
+}

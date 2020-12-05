@@ -1,0 +1,16 @@
+@mixin toppic_img($url) {
+  width: 100%;
+  height: 26rem;
+  background: url($url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin pc_toppic_img($height, $url) {
+  height: $height;
+  background: url($url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
