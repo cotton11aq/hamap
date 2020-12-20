@@ -27,7 +27,7 @@ const Header = (props) => {
             </div>
             <div className="header-li">
               <HashLink to="/#ideat">
-                <span>Let's dat !</span>
+                <span>Let's eat !</span>
                 <p>ジャンルから探す</p>
               </HashLink>
             </div>

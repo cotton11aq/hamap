@@ -51,7 +51,10 @@ const Top = (props) => {
       <GenreHeadText
         id={"idinsta-sp"}
         className={"lets lets-gray"}
-        title={"Instagram PICK UP !"}
+        title01={"Instagram"}
+        title02={"PICK"}
+        title03={"UP"}
+        title04={"!"}
         sub={"インスタグラムにて、"}
         sub02={"八幡浜の美味しい情報をお伝えしています。"}
       />

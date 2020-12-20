@@ -24,6 +24,16 @@
       letter-spacing: normal;
       border-bottom: 2px solid #333333;
       padding-bottom: 1rem;
+
+      span {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+
+  &-none {
+    .lets-none {
+      display: none;
     }
   }
 

@@ -65,5 +65,17 @@
       padding-left: 0;
       padding-right: 0;
     }
+
+    &-bg-zoom01:after {
+      @include picsrc("../../img/go/pc/pc_search_shotengai.png");
+    }
+  
+    &-bg-zoom02:after {
+      @include picsrc("../../img/go/pc/pc_search_yawatahamaeki.png");
+    }
+  
+    &-bg-zoom03:after {
+      @include picsrc("../../img/go/pc/pc_search_minatto.png");
+    }
   }
 }

@@ -189,16 +189,20 @@ const App = () => {
         <Route exact path="/Konamono" component={Konamono} />
         <Route exact path="/Miyachan" component={Miyachan} />
         <GenreHeadText
-          className={"lets"}
+          className={"lets lets-none"}
           id={"ideat-sp"}
-          title={"LET'S EAT !"}
+          title01={"LET'S"}
+          title02={"EAT"}
+          title03={"!"}
           sub={"八幡浜で、なに食べる？"}
         />
         <EatGenre />
         <GenreHeadText
-          className={"lets lets-gray"}
+          className={"lets lets-gray lets-none"}
           id={"idgo-sp"}
-          title={"LET'S GO !"}
+          title01={"LET'S"}
+          title02={"GO"}
+          title03={"!"}
           sub={"八幡浜の、どこで食べる？"}
         />
         <GoGenre />

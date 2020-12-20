@@ -7,7 +7,15 @@ const GenreHeadText = (props) => {
         <div className="lets-container">
           <div className="lets-texts">
             <div className="lets-title">
-              <h3>{props.title}</h3>
+              <h3>
+                {props.title01}
+                <span></span>
+                {props.title02}
+                <span></span>
+                {props.title03}
+                <span className="lets-none"></span>
+                {props.title04}
+              </h3>
             </div>
             <div className="lets-sub">
               <p>

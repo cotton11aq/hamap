@@ -76,6 +76,19 @@
     margin: 0 auto;
     text-align: center;
     max-width: 30rem;
+
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.8rem;
+    }
+
+    i {
+      display: inline-block;
+      margin-left: 1rem;
+    }
+
   }
 
   &-text:hover {
