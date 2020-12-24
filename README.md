@@ -34,6 +34,6 @@
 
 ![Untitled Diagram](https://user-images.githubusercontent.com/70832534/102887843-f91cd200-449a-11eb-90d1-9dec4ce42378.png)
 
-## 作成した経緯
+## サイト紹介
 
 ![Shikoku-touring-3](https://user-images.githubusercontent.com/70832534/102888426-1dc57980-449c-11eb-8112-de707890f6a9.png)
