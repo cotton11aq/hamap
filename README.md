@@ -8,10 +8,11 @@
 ![rectangle_large_type_2_a80ca0bcb7e96333c7f6e7a19cff695a](https://user-images.githubusercontent.com/70832534/103057299-7141df80-45e2-11eb-8e63-b54f683afdf4.jpg)  
 
 ## URL
+リニューアル後  
 <https://hamap-gourmet.com>
 </br>
 </br>
-旧サイトはこちら↓  
+リニューアル前   
 <https://hamap-gourmet.jp>
 </br>
 
