@@ -22,7 +22,7 @@ AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）
 ## AWS構成図
 ![Untitled Diagram](https://user-images.githubusercontent.com/70832534/102887843-f91cd200-449a-11eb-90d1-9dec4ce42378.png)  
 </br>
-Amazon S3の静的Webサイトホスティング機能を利用してインターネットに公開しました。
+Amazon S3の静的Webサイトホスティング機能を利用してインターネットに公開しました。  
 CloudFront、Route53、ACMといったサービスを組み合わせて、最終的には独自ドメインかつHTTPSでアクセスできるようにしました。
 
 ## サイト概要
