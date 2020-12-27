@@ -14,10 +14,10 @@
 ## 使用技術
 
 <strong>フロントエンド</strong>  
-HTML / CSS（Sass） / JavaScript / React  
+HTML / CSS(Sass) / JavaScript / React  
 
 <strong>インフラ</strong>  
-AWS（S3/Route53/CloudFront/AWS Certificate Manager）
+AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）
 
 ## AWS構成図
 
