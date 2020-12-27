@@ -13,28 +13,11 @@
 
 ## 使用技術
 
-<strong>フロントエンド</strong>
+<strong>フロントエンド</strong>  
 HTML / CSS（Sass） / JavaScript / React  
 
-<strong>インフラ</strong>
-AWS（S3/Route53/CloudFront/CertificateManager）
-
-* CSS(Sass)
-* JavaScript
-* React
-* AWS
-  * Amazon Route 53
-  * Amazon CloudFront
-  * S3
-  * AWS Certificate Manager
-
-## 機能一覧
-
-* ツイッターシェア
-* データ保存
-* ログイン／ログアウト
-* レスポンシブ対応
-* お問い合わせ（Slack連携）
+<strong>インフラ</strong>  
+AWS（S3/Route53/CloudFront/AWS Certificate Manager）
 
 ## AWS構成図
 
