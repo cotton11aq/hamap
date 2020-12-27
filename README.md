@@ -18,6 +18,9 @@ HTML / CSS(Sass) / JavaScript / React
 <strong>インフラ</strong>  
 AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）  
 
+## 機能一覧
+
+
 ## AWS構成図
 ![Untitled Diagram](https://user-images.githubusercontent.com/70832534/102887843-f91cd200-449a-11eb-90d1-9dec4ce42378.png)  
 </br>
