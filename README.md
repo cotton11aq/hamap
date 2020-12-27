@@ -27,7 +27,9 @@ CloudFront、Route53、ACMといったサービスを組み合わせて、最終
 </br>
 
 ## サイト概要
-![hamap – 11](https://user-images.githubusercontent.com/70832534/103165290-2a115400-4859-11eb-891d-5e4aa01dcfcd.jpg)
+![hamap – 11](https://user-images.githubusercontent.com/70832534/103165290-2a115400-4859-11eb-891d-5e4aa01dcfcd.jpg)  
+トップページからと直接ジャンル、エリア別でお店リストを見られるよう改善。  
+アイコンを使用することで、直感的に認識できるよう工夫しており、サイトを訪れた人に考えさせないことを目指しています。
 </br>
 </br>
 ![hamap – 12](https://user-images.githubusercontent.com/70832534/103165294-2ed60800-4859-11eb-8f2a-26a1e6d45d76.jpg)
