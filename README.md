@@ -10,7 +10,8 @@
 ## URL
 <https://hamap-gourmet.com>
 </br>
-旧サイトはこちら↓
+</br>
+旧サイトはこちら↓  
 <https://hamap-gourmet.jp>
 </br>
 
