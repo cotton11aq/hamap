@@ -27,7 +27,8 @@ CloudFront、Route53、ACMといったサービスを組み合わせて、最終
 </br>
 
 ## サイト概要
-![hamap – 17](https://user-images.githubusercontent.com/70832534/103165654-f4bb3500-485d-11eb-84a8-a8523f709edf.jpg)
+![hamap – 15](https://user-images.githubusercontent.com/70832534/103165532-7ca03f80-485c-11eb-8e23-f978db84711d.jpg)  
+![hamap – 16](https://user-images.githubusercontent.com/70832534/103165533-8033c680-485c-11eb-943d-e98df56fab0d.jpg)
 <!--
 ### 現状
 <strong>地域外の方向けの説明が不足しており、かつ、情報がまとまっていない。</strong>  
