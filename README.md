@@ -30,6 +30,8 @@ CloudFront、Route53、ACMといったサービスを組み合わせて、最終
 ## サイト概要
 ![hamap – 17](https://user-images.githubusercontent.com/70832534/103170457-b3d81600-4887-11eb-9148-9dce85b4d609.jpg)
 <br />
+<br />
+<br />
 
 ### トップページから直接各カテゴリーへ
 トップページからと直接ジャンル、エリア別でお店リストを見られるよう改善しました。  
