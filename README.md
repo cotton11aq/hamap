@@ -82,4 +82,4 @@ CloudFront、Route53、ACMといったサービスを組み合わせて、最終
 八幡浜市のグルメに関する投稿をされている方にお写真のご提供を依頼させていただきました。  
 より多くの方と一緒になって地域を活性化したいと想い、地元の方やゆかりのある方にご協力いただきました。
 </br>
-![hamap – 14](https://user-images.githubusercontent.com/70832534/103165374-3cd85880-485a-11eb-885a-62bea25cef1d.jpg)  
+![hamap – 14](https://user-images.githubusercontent.com/70832534/103165715-7d39d580-485e-11eb-8174-e17c5d15d375.jpg)
