@@ -23,7 +23,7 @@ AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）
 ![Untitled Diagram](https://user-images.githubusercontent.com/70832534/102887843-f91cd200-449a-11eb-90d1-9dec4ce42378.png)  
 </br>
 
-## サイト説明
+## サイト概要
 ![hamap – 1](https://user-images.githubusercontent.com/70832534/103164283-8de15000-484c-11eb-915f-caddc8f83ba2.jpg)
 </br>
 ![hamap – 2](https://user-images.githubusercontent.com/70832534/103164286-9043aa00-484c-11eb-9fd0-8dcb9a37865e.jpg)
