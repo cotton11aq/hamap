@@ -19,6 +19,7 @@ const Kitahama = () => {
         text={
           "宇和海で捕れる活きとらふぐを使用した天然フグコースと、5月～10月限定の天然アジを使用した料理がオススメ。どちらも都内高級店に負けない味わいです。"
         }
+        introduce={"introduce"}
         map={
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.524608322335!2d132.42131931519955!3d33.461689980770764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8e9e80aa870bd54c!2z5YyX5rWcIOWkp-WztuWxiw!5e0!3m2!1sja!2sjp!4v1605654402735!5m2!1sja!2sjp"
         }

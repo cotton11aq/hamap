@@ -11,7 +11,6 @@ import kokeke from "../../../assets/img/shop/kokeke.jpg";
 import takamatsuya from "../../../assets/img/shop/takamatsuya.jpg";
 import sushiishin from "../../../assets/img/shop/sushiishin.jpg";
 import tarugen from "../../../assets/img/shop/tarugen.jpg";
-import kasuga from "../../../assets/img/shop/kasuga.jpg";
 import kairi from "../../../assets/img/shop/kairi.jpg";
 import atagoginza from "../../../assets/img/shop/atagoginza.jpg";
 import { Card, GenreHeadTitle } from "../../../assets/components/index";
@@ -37,7 +36,7 @@ const KaisenCardList = (props) => {
         />
         <Card
           img={umisachimaru}
-          title={"綱元の台所 海幸丸"}
+          title={"昭和水産トロール市"}
           sub={"仕入れから提供までこだわっています！"}
           link={"/Umisachimaru/#idumisachimaru"}
         />
@@ -96,12 +95,6 @@ const KaisenCardList = (props) => {
           title={"たる源"}
           sub={"準備中"}
           link={"/Tarugen/#idtarugen"}
-        />
-        <Card
-          img={kasuga}
-          title={"春日料亭"}
-          sub={"海・山・川の「幸」が味わえる料亭"}
-          link={"/Kasuga/#idkasuga"}
         />
         <Card
           img={kairi}

@@ -1,0 +1,59 @@
+#introduce-none {
+  display: none;
+}
+
+.introduce {
+  display: block !important;
+  background-color: #f0f0f0;
+  margin-top: 2rem;
+  padding: 2rem 2rem;
+
+  p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5;
+
+    a {
+      font-size: 1.4rem;
+      color: #1b4474;
+      font-size: 1.4rem;
+    }
+  }
+
+  &-space {
+    height: 2rem;
+  }
+
+  &-other {
+    display: block !important;
+    background-color: #f0f0f0;
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+
+    p {
+      font-size: 1.4rem;
+      font-weight: bold;
+      line-height: 1.5;
+
+      a {
+        font-size: 1.4rem;
+        color: #1b4474;
+        font-size: 1.4rem;
+      }
+    }
+
+    &-space {
+      height: 2rem;
+    }
+  }
+}
+
+@include mq("sp") {
+  .introduce {
+    padding: 2rem 6rem;
+
+    &-other {
+      padding: 2rem 6rem;
+    }
+  }
+}

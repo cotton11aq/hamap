@@ -78,7 +78,7 @@ const Footer = () => {
             </div>
             <div className="footer-sns">
               <a
-                href="https://twitter.com/intent/tweet?text=ツーリングで四国一周の旅へ出かけよう！四国ツーリング&url=https://shikoku-touring.net"
+                href="https://twitter.com/intent/tweet?text=はまっぷグルメ｜日本の端まで八幡浜の美味しい！を写真とともに紹介！&url=https://hamap-gourmet.com"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
               >

@@ -31,6 +31,44 @@ const Shop = (props) => {
                 </div>
                 <div className="shop-text">
                   <p>{props.text}</p>
+                  <div id="introduce-none" className={props.introduce}>
+                    <p>
+                      「えひめ技あり鱧プロジェクト」様から写真をご提供いただきました！
+                    </p>
+                    <p>
+                      （URL：
+                      <a href="https://ehimewazahamo.jp" target="_brank">
+                        https://ehimewazahamo.jp
+                      </a>
+                      ）
+                    </p>
+                    <div className="introduce-space"></div>
+                    <p>
+                      「えひめ技あり鱧プロジェクト」は、八幡浜市が多くの水揚げ量を誇る鱧（ハモ）の豊かな味わいをたくさん方にご体感いただくためのプロジェクトです。骨切りせず身を取る新たな技法を活用しており、食での地域活性化に取り組んでいます！
+                    </p>
+                    <div className="introduce-space"></div>
+                    <p>
+                      <a
+                        href="https://www.instagram.com/ehimewazahamo/?hl=ja"
+                        target="_brank"
+                      >
+                        #えひめ技あり鱧プロジェクト
+                      </a>
+                      の応援をよろしくお願いします！
+                    </p>
+                  </div>
+                  <div id="introduce-none" className={props.introduce02}>
+                    <p>
+                      「
+                      <a
+                        href="https://www.instagram.com/chabos_pov/"
+                        target="_brank"
+                      >
+                        @chabos_pov
+                      </a>
+                      」様から写真をご提供いただきました！
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="shop-head-flex02">

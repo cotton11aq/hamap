@@ -21,6 +21,7 @@ const Ueda = () => {
         text={
           "味一番うえだはすべて予約制で、その日の朝、新鮮な魚を仕入れて美味しい料理を提供しています。"
         }
+        introduce={"introduce"}
         map={
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.6753260978585!2d132.42064611519953!3d33.457764380771806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2550f74e427f5140!2z5ZGz5LiA55WqIOOBhuOBiOOBoA!5e0!3m2!1sja!2sjp!4v1605650401444!5m2!1sja!2sjp"
         }

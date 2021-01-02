@@ -16,7 +16,7 @@ class IconCard extends React.Component {
             <ul>
               <li>
                 <TwitterShareButton
-                  url={["yu-kobo.net"]}
+                  url={["hamap-gourmet.com"]}
                   title={[
                     "はまっぷグルメ | 日本の端まで、やわたはまの美味しい！を写真とともに紹介",
                   ]}

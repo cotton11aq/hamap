@@ -12,15 +12,14 @@ const Sushikou = () => {
         titlesub={"豊後水道の地魚を旬で仕入れています！"}
         classpic={"shop-pic shop-sushikou"}
         classicon={"shop-icon shop-kaisen"}
-        catch={
-          "豊後水道の地魚を旬で仕入れています！ 贅沢な「ふぐコース」をお手頃価格で！"
-        }
+        catch={"豊後水道の地魚を旬で仕入れています！"}
         genre01={"海鮮料理"}
         genre02={"地どり、地魚"}
         genre03={"なべ、宴会"}
         text={
-          "味一番うえだはすべて予約制で、その日の朝、新鮮な魚を仕入れて美味しい料理を提供しています。"
+          "新鮮な素材にこだわり、すし以外にも一品料理、なべ、様々な料理があります。 リーズナブルで四季を感じられるメニューをご賞味ください。"
         }
+        introduce={"introduce"}
         map={
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.563652237299!2d132.42127001519958!3d33.46067308077101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d883f3b33b7cade!2z44GZ44GX5YWJ!5e0!3m2!1sja!2sjp!4v1605653291222!5m2!1sja!2sjp"
         }
