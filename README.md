@@ -22,6 +22,8 @@ AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）
 Amazon S3の静的Webサイトホスティング機能を利用してインターネットに公開しました。  
 CloudFront、Route53、ACMといったサービスを組み合わせて、最終的には独自ドメインかつHTTPSでアクセスできるようにしました。
 <br />
+<br />
+<br />
 
 ## サイト概要
 ![hamap – 17](https://user-images.githubusercontent.com/70832534/103212836-4d1e2f80-494f-11eb-8401-d4e1e9593764.jpg)
