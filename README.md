@@ -5,7 +5,7 @@
 知人が運営する愛媛県八幡浜市のグルメ紹介サイト「Hamap」をリニューアルしました。  
 ジャンルやエリア別で探しやすい構成にするとともに、地域外の方に楽しんでいただけるサイトを目指しました。
 
-![hamap – 16](https://user-images.githubusercontent.com/70832534/103278845-ced59200-4a0f-11eb-98f1-7808426bd696.png)  
+![hamap – 16](https://user-images.githubusercontent.com/70832534/104080828-c120d780-526d-11eb-81c3-96a4cac55ecf.jpg)  
 
 ## URL 
 <https://hamap-gourmet.com>
