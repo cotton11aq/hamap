@@ -9,8 +9,8 @@
 
 ## URL 
 <https://hamap-gourmet.com>
-</br>
-</br>
+<br />
+<br />
 
 ## 使用技術
 <strong>フロントエンド</strong>  
@@ -18,9 +18,10 @@ HTML / CSS(Sass) / JavaScript / React
 
 <strong>インフラ</strong>  
 AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）  
-</br>
+<br />
 Amazon S3の静的Webサイトホスティング機能を利用してインターネットに公開しました。  
 CloudFront、Route53、ACMといったサービスを組み合わせて、最終的には独自ドメインかつHTTPSでアクセスできるようにしました。
+<br />
 
 ## サイト概要
 ![hamap – 17](https://user-images.githubusercontent.com/70832534/103212836-4d1e2f80-494f-11eb-8401-d4e1e9593764.jpg)
@@ -40,7 +41,7 @@ CloudFront、Route53、ACMといったサービスを組み合わせて、最終
 ### お店リストとマップを並列で表示
 マップで位置を確認しながらお店のリストを並行することで、ご自身の当日の行動に合わせたお店が選びやすくなりました。  
 また、GoogleMapへのリンクにより、気になったお店をそのままお気に入りなどに登録することができます。
-</br>
+<br />
 ![hamap – 12](https://user-images.githubusercontent.com/70832534/103165294-2ed60800-4859-11eb-8f2a-26a1e6d45d76.jpg)  
 <br />
 <br />
