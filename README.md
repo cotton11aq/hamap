@@ -19,6 +19,8 @@ HTML / CSS(Sass) / JavaScript / React
 <strong>インフラ</strong>  
 AWS（S3 / Route53 / CloudFront / AWS Certificate Manager）  
 </br>
+Amazon S3の静的Webサイトホスティング機能を利用してインターネットに公開しました。  
+CloudFront、Route53、ACMといったサービスを組み合わせて、最終的には独自ドメインかつHTTPSでアクセスできるようにしました。
 
 ## AWS構成図
 Amazon S3の静的Webサイトホスティング機能を利用してインターネットに公開しました。  
